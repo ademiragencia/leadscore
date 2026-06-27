@@ -1,0 +1,16 @@
+{
+  "name": "leadscore-empresas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "import:national": "node scripts/import-national-leads.js",
+    "import:receita-estab": "node scripts/import-receita-estabelecimentos.js",
+    "check": "node --check server/index.js && node --check outputs/assets/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
