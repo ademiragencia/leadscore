@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+work/
+data/
+*.log
+*.tmp
+
+# Local browser/test artifacts
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Codex local metadata
+.agents/
+.codex/
